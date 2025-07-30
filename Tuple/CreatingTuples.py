@@ -1,0 +1,7 @@
+t1 = (12, 2, 3, 23, 34)
+t2 = (12.23, 2.12, 23.34)
+t3 = (12, 23.23, 'Bye', False)
+print(type(t1))
+print(t1)
+print(t2)
+print(t3)

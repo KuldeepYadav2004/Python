@@ -1,0 +1,6 @@
+print("welcome to python ")
+print('I love python')
+print('welcome to incapp')
+print('hello')
+print('my name is kuldeep yadav')
+print('hello')

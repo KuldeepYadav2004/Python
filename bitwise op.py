@@ -1,0 +1,13 @@
+a,b=4,5
+c=a&b
+print(c)
+c=a|b
+print(c)
+c=a^b
+print(c)
+c=a>>1
+print(c)
+c=a<<1
+print(c)
+b=~a
+print(b)

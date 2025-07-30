@@ -1,0 +1,17 @@
+n1,n2=5,2
+print(n1)
+print(n2)
+r=n1-n2
+print(r)
+r=n1+n2
+print(r)
+r=n1*n2
+print(r)
+r=n1/n2
+print(r)
+r=n1//n2
+print(r)
+r=n1%n2
+print(r)
+r=n1**n2
+print(r)
