@@ -1,6 +1,6 @@
 from sqlite3 import *
 
-con = connect('persons.db') #Connecting to database
+con = connect("/Users/kuldeepyadav/Developer/Code/Python/Database Programing correct one/persons.db") #Connecting to database
 
 cur = con.cursor() #Creating cursor object
 cur.execute("insert into Person(name, age, city) values('Manoj Pandey', 23, 'Greater Noida')") #Putting the sql query into cursor object 

@@ -4,7 +4,7 @@ name = input("Enter name: ")
 age = int(input("Enter age: "))
 city = input("Enter city: ")
 
-con = connect('persons.db') #Connecting to database
+con = connect("/Users/kuldeepyadav/Developer/Code/Python/Database Programing correct one/persons.db") #Connecting to database
 
 cur = con.cursor() #Creating cursor object
 cur.execute("insert into Person(name, age, city) values(?, ?, ?)", (name, age, city)) #Putting the sql query into cursor object 

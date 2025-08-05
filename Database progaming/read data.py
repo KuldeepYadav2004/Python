@@ -1,7 +1,7 @@
 from sqlite3 import *
 
 
-con=connect('Person.db') #Connecting to the database
+con=connect("Person.db") #Connecting to the database
 cur=con.cursor() #Creating a cursor object
 cur.execute("select * from Person") #putting the sql query into the cursor object 
 persons=cur.fetchall()
