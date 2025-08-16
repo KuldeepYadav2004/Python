@@ -4,11 +4,16 @@ import speech_recognition as sr
 import datetime as dt
 import google.genai as genai
 import os
+from google.generativeai import configure
+configure(api_key="AIzaSyCh87E6GisHYTFDz4wydzh4gvHd_KY5AvE")
+
+
 
 class VoiceAssistant:
     def __init__(self, name = "Ether"):
         self.name = name
-        self.client = genai.Client(api_key=os.environ['GEMINI_API_KEY'])
+        self.client = genai.Client(api_key=os.getenv('GEMINI_API_KEY')
+)
         
         current_hour = dt.datetime.now().hour
         
