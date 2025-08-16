@@ -8,7 +8,7 @@ import google.genai as genai
 class VoiceAssistant:
     def __init__(self, name = "Ether"):
         self.name = name
-        self.client = genai.client(api_key=AIzaSyCh87E6GisHYTFDz4wydzh4gvHd_KY5AvE)
+        self.client = genai.client(api_key=)
         
         current_hour = dt.datetime.now().hour
         
